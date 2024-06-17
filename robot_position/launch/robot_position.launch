@@ -1,0 +1,4 @@
+<launch>
+    <node name="sensor_publisher" pkg="robot_position" type="sensor_publisher.py" output="screen"/>
+    <node name="position_logger" pkg="robot_position" type="position_logger.py" output="screen"/>
+</launch>
